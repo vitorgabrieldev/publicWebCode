@@ -1,0 +1,10 @@
+/* ========================= Fonts Project ================ */
+
+@font-face {
+    font-family: fontDefault;
+    src: url(../fonts/Poppins-Thin.ttf);
+}
+@font-face {
+    font-family: fontTitle;
+    src: url(../fonts/Poppins-Light.ttf);
+}

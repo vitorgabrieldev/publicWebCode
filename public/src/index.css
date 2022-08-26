@@ -1,0 +1,16 @@
+
+/*=================== Main Style Sheet - Global ==================*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Import */
+    /* public/services/config/fonts */
+    /* public/services/config/fonts.css */
+    font-family: fontTitle;
+
+    color: #fefefe;
+
+}
