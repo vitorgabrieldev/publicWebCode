@@ -1,0 +1,17 @@
+/*===================================================================*/
+/*==================== CUSTOM BUTTONS ================================*/
+/*===================================================================*/
+
+
+/*Buton search principal*/
+button.btnSearchMain
+{
+    border: .1rem solid #888;
+    background: transparent;
+    border-radius: .2rem;
+    padding: .3rem;
+}
+button.btnSearchMain:hover
+{
+    background: rgba(151, 151, 151, 0.137);
+}

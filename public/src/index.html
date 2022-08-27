@@ -28,9 +28,13 @@
     <!-- Style Sheets -->
     <link rel="stylesheet" href="../services/config/fonts.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./components/css/inputs.css">
+    <link rel="stylesheet" href="./components/css/buttons.css">
+    <link rel="stylesheet" href="./components/css/cards.css">
 
     <!-- Scripts -->
     <script src="./app.js" defer></script>
+    <script src="./components/js/closeDisplay.js" defer></script>
 
 </head>
 <body>
@@ -39,17 +43,24 @@
     <nav class="navbar navbar-dark bg-dark p-3">
         <!-- Navbar content -->
         <section class="logoContainer d-flex align-items-center ms-5">
-            <img class="logo-content" id="logoContent" src="./svgs/logo.svg" title="Logo do WebSite" alt="WebCode">
-            <h1 class="fs-2">WebCode</h1>
+            <!-- <img class="logo-content me-3" id="logoContent" src="./svgs/logo.svg" title="Logo do WebSite" alt="WebCode"> -->
+            <h1 class="fs-1">WebCode</h1>
         </section>
         <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="button">Search</button>
-          </form>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <input spellcheck="false" type="text" placeholder="Search" name="searchMAIN" class="searchMain me-2" id="searchValue" title="Barra de pesquisa principal" tabindex="1">
+            <button type="button" id="btnSearch" class="btnSearchMain">
+                <i class="bi bi-search"></i>
+            </button>
+        </form>
+          <button id="togglerOpenDisplay" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+             <span class="navbar-toggler-icon"></span>
+          </button>
     </nav>
+    <section class="display-Toggler" id="displayToggler">
+        <article id="btnCloseDisplay" class="btnClose-display d-flex p-3">
+            <i class="btn bi bi-x-lg text-light fs-4" id="closeDisplayMain"></i>
+        </article>
+    </section>
       
 
 </body>

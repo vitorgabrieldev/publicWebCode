@@ -1,0 +1,11 @@
+.display-Toggler
+{
+    background: rgb(37, 35, 35);
+    position: absolute;
+    width: 50%;
+    /* height: 90.4%; */
+    height: 0;
+    margin-left: 50%;
+
+    transition: .3s;
+}
